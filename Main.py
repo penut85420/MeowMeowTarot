@@ -1,9 +1,10 @@
 from MeowTarot.GUI import MeowTarotApp
 
 
-def Main():
-    MeowTarotApp().Launch()
+def main():
+    app = MeowTarotApp()
+    app.launch()
 
 
 if __name__ == "__main__":
-    Main()
+    main()

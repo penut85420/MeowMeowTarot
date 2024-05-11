@@ -1,3 +1,16 @@
-#title {
+h1 {
     text-align: center;
+    display: block;
+}
+
+div#img-div div.image-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#img-div img {
+    max-width: fit-content;
+    max-height: fit-content;
 }
